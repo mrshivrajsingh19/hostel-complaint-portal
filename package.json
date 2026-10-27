@@ -1,13 +1,19 @@
 {
   "name": "hostel-complaint-portal",
   "version": "1.0.0",
-  "description": "Hostel/PG Complaint Management System - Full Stack React + Express",
+  "description": "Hostel/PG Complaint Management System - Full Stack React + Express All-in-One on Vercel",
   "private": true,
   "scripts": {
-    "install:all": "cd server && npm install && cd ../client && npm install",
-    "dev:server": "cd server && npm run dev",
-    "dev:client": "cd client && npm run dev",
-    "test": "cd server && npm test",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm install && npm run build",
+    "start": "node api/index.js",
+    "test": "cd server && npm test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^10.0.0"
   }
 }
