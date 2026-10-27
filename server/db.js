@@ -1,7 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const DATA_DIR = path.join(__dirname, '../data');
+// On Render with persistent disk: /opt/render/project/src/data
+// Locally: ../data
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, '../data');
 const USERS_FILE = path.join(DATA_DIR, 'users.json');
 const COMPLAINTS_FILE = path.join(DATA_DIR, 'complaints.json');
 
