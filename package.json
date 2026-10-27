@@ -6,7 +6,7 @@
   "scripts": {
     "build": "cd client && npm install && npm run build",
     "start": "node api/index.js",
-    "test": "cd server && npm test"
+    "test": "node tests/api.test.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
