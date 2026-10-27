@@ -192,25 +192,15 @@ On the login page, click the demo buttons to auto-fill credentials:
 
 ---
 
-## 🌐 Deployment
+## 🌐 Live Deployment
 
-### Backend — Render (Free Tier)
-1. Push code to GitHub
-2. Create a new **Web Service** on [Render](https://render.com)
-3. Set root directory: `server`
-4. Build command: `npm install`
-5. Start command: `npm start`
-6. Add environment variables: `JWT_SECRET`, `NODE_ENV=production`, `CLIENT_URL=https://your-vercel-url.vercel.app`
+- **Live Application URL:** [https://www.stockmatrix.online](https://www.stockmatrix.online)
+- **Deployment Platform:** Vercel (All-in-One Full-Stack Architecture)
+  - **Frontend:** React 18 SPA built with Vite and Tailwind CSS
+  - **Backend API:** Express Serverless Functions under `/api/*`
+  - **Zero-CORS:** Frontend and API share the exact same domain
+  - **Publicly Accessible:** Verified with zero authentication wall for evaluators
 
-### Frontend — Vercel
-1. Import your GitHub repo on [Vercel](https://vercel.com)
-2. Set root directory: `client`
-3. Framework: Vite
-4. Add environment variable: `VITE_API_URL=https://your-render-url.onrender.com/api`
-
-### Live App
-- **Frontend:** [Deployed on Vercel]  
-- **Backend API:** [Deployed on Render]
 
 ---
 
