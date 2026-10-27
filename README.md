@@ -194,16 +194,12 @@ On the login page, click the demo buttons to auto-fill credentials:
 
 ## 🌐 Live Deployment
 
-- **Deployment Platform:** Vercel (All-in-One Full-Stack Architecture)
+- **Live Application URL:** [https://hostel-complaint-portal-beta.vercel.app](https://hostel-complaint-portal-beta.vercel.app)
+- **Deployment Platform:** Vercel (Independent All-in-One Full-Stack Project)
   - **Frontend:** React 18 SPA built with Vite and Tailwind CSS
   - **Backend API:** Express Serverless Functions under `/api/*`
   - **Zero-CORS:** Frontend and API share the exact same domain
   - **Publicly Accessible:** Verified with zero authentication wall for evaluators
-
-### 🚀 Deploying to Vercel (1-Click)
-1. Go to [https://vercel.com/new](https://vercel.com/new)
-2. Import **`mrshivrajsingh19/hostel-complaint-portal`**
-3. Click **Deploy** (all configurations are pre-defined in `vercel.json`!)
 
 
 
